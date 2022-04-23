@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from "styled-components";
-import img1 from "./../utill/images/1.png"
-import img2 from "./../utill/images/2.png"
-import img3 from "./../utill/images/3.png"
-import img4 from "./../utill/images/4.png"
-import img5 from "./../utill/images/5.png"
+import img1 from "../utill/images/home/1.png"
+import img2 from "../utill/images/home/2.png"
+import img3 from "../utill/images/home/3.png"
+import img4 from "../utill/images/home/4.png"
+import img5 from "../utill/images/home/5.png"
 import {Splide, SplideSlide} from "@splidejs/react-splide";
 import '@splidejs/splide/dist/css/splide.min.css';
 
@@ -52,7 +52,7 @@ const RightFromHomeViewSection = () => {
                             return (
                                 <SplideSlide style={{}}>
                                     <Card>
-                                        <img src={recipe}/>
+                                        <img src={recipe} title={"picture"}/>
                                     </Card>
                                 </SplideSlide>
                             )
