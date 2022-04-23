@@ -6,7 +6,7 @@ import NavLinks from "./NavLinks";
 const Navbar = () => {
 
     const Container = styled.div`
-        width: 100vw;
+        //width: 100vw;
         height: 60px;
         background-color: #4842A2;
         display: flex;

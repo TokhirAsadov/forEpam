@@ -1,9 +1,10 @@
 import React from 'react';
+import HomeViewSection from "../components/HomeViewSection";
 
 const Home = () => {
     return (
         <div>
-            Home
+            <HomeViewSection />
         </div>
     );
 };
