@@ -15,7 +15,7 @@ const Logo = (props) => {
       border: 4px solid ${props.color};
       padding: 3px;
       border-radius: 50%;
-      margin-left: 100px;
+      margin-left: 100px!important;
       cursor: pointer;
     `;
 
