@@ -17,7 +17,7 @@ const Navbar = () => {
 
     return (
         <Container>
-            <Logo />
+            <Logo color={"green"}/>
             <NavLinks />
         </Container>
     );
