@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 const Logo = (props) => {
 
-    const Container = styled.div`
+    const Container = styled.div` 
       flex: 1;
     `;
 

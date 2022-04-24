@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 const HomeViewSection = () => {
 
-    const Container = styled.div`
+    const Container = styled.div` 
       display: flex; 
       align-items: center;
       justify-content: center;

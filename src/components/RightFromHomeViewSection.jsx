@@ -12,7 +12,7 @@ const RightFromHomeViewSection = () => {
 
     const images = [img1,img2,img3,img4,img5];
 
-    const Container = styled.div`
+    const Container = styled.div` 
       flex: 1;
       padding: 20px 30px;
       display: flex;

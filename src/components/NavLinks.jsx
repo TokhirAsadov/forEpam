@@ -5,10 +5,12 @@ import SearchIcon from '@mui/icons-material/Search';
 const NavLinks = () => {
 
     const Container = styled.div`
+      position: relative;
       flex : 2;
       display: flex;
       align-items: center;
       justify-content: space-around;
+      right: 20px;
     `;
 
     const LinkWrapper = styled.span`
