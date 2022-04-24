@@ -12,8 +12,7 @@ const ThreeCards = () => {
       width: 80vw;
       height: 60vh;
       margin: 80px auto 20px!important;
-      padding: 10px 40px;
-      background-color: rgba(0,0,0,0.5);
+      padding: 10px 40px; 
     `;
 
     const Card = styled.div`
@@ -22,25 +21,45 @@ const ThreeCards = () => {
       display: flex;
       align-items: center;
       flex-direction: column;
-      border: 2.5px solid #000;
+      border: 5px solid #98d5c4;
       border-radius: 10px;
-      
-      img{
-        width: 200px;
-        height: 200px;
-      }
+    `;
+
+    const Image = styled.img`
+      width: 200px;
+      height: 200px;
+    `;
+
+    const Title = styled.p`
+      margin-top: 30px!important;
+      letter-spacing: 0.7px;
     `;
 
     return (
         <Container>
             <Card>
-                <img src={img1} title={"computer"} style={{width:"250px"}}/>
+                <Image src={img1} title={"computer"} style={{width:"250px"}}/>
+                <Title>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Aspernatur, culpa, natus! Blanditiis commodi eveniet facilis
+                    impedit magnam omnis, praesentium vero?
+                </Title>
             </Card>
             <Card>
-                <img src={img2} title={"laptop"}/>
+                <Image src={img2} title={"laptop"}/>
+                <Title>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Aspernatur, culpa, natus! Blanditiis commodi eveniet facilis
+                    impedit magnam omnis, praesentium vero?
+                </Title>
             </Card>
             <Card style={{}}>
-                <img src={img3} title={"phone"}/>
+                <Image src={img3} title={"phone"}/>
+                <Title>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Aspernatur, culpa, natus! Blanditiis commodi eveniet facilis
+                    impedit magnam omnis, praesentium vero?
+                </Title>
             </Card>
         </Container>
     );
