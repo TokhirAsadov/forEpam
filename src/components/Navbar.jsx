@@ -28,7 +28,6 @@ const Navbar = () => {
     return (
         <Container>
             <Wrapper>
-
             <Logo color={"green"}/>
             <NavLinks />
             </Wrapper>

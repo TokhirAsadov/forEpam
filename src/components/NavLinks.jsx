@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from "styled-components";
 import SearchIcon from '@mui/icons-material/Search';
+import { Link } from "react-router-dom";
 
 const NavLinks = () => {
 
@@ -41,32 +42,44 @@ const NavLinks = () => {
         <Container>
             <LinkWrapper>
                 <NavLinks>
-                    Home
+                    <Link to="/" style={{textDecoration:"none",color:"#fff"}}>
+                        Home
+                    </Link>
                 </NavLinks>
             </LinkWrapper>
             <LinkWrapper>
                 <NavLinks>
-                    About
+                    <Link to="/about" style={{textDecoration:"none",color:"#fff"}}>
+                        About
+                    </Link>
                 </NavLinks>
             </LinkWrapper>
             <LinkWrapper>
                 <NavLinks>
-                    Computer
+                    <Link to="/computer" style={{textDecoration:"none",color:"#fff"}}>
+                        Computer
+                    </Link>
                 </NavLinks>
             </LinkWrapper>
             <LinkWrapper>
                 <NavLinks>
-                    Laptop
+                    <Link to="/laptop" style={{textDecoration:"none",color:"#fff"}}>
+                        Laptop
+                    </Link>
                 </NavLinks>
             </LinkWrapper>
             <LinkWrapper>
                 <NavLinks>
-                    Products
+                    <Link to="/products" style={{textDecoration:"none",color:"#fff"}}>
+                        Products
+                    </Link>
                 </NavLinks>
             </LinkWrapper>
             <LinkWrapper>
                 <NavLinks>
-                    Contact Us
+                    <Link to="/contact" style={{textDecoration:"none",color:"#fff"}}>
+                        Contact Us
+                    </Link>
                 </NavLinks>
             </LinkWrapper>
             <LinkWrapper>

@@ -6,7 +6,7 @@ import img from "./../utill/images/pagesPictures/about.png";
 const About = () => {
     const Container = styled.div`
       width: 100vw;
-      height: calc(100vh - 125px );
+      height: calc(100vh - 65px );
       display: flex;
       align-items: center;
       justify-content: center;

@@ -2,6 +2,7 @@ import React from 'react';
 import styled from "styled-components";
 import Logo from "./Logo";
 import {LinkedIn, Telegram, Instagram, Twitter, Copyright} from '@mui/icons-material';
+import {Link} from "react-router-dom";
 
 const Footer = () => {
     const Container = styled.div`
@@ -178,7 +179,11 @@ const Footer = () => {
                 </Section>
                 <Section>
                     <SectionWrapper>
-                        <Title>About Us</Title>
+                        <Title>
+                            <Link to="/about" style={{textDecoration:"none",color:"#fff"}}>
+                                About Us
+                            </Link>
+                        </Title>
                         <Description width={"200px"}>
                             Lorem ipsum dolor sit amet, consectetur
                             adipisicing elit. Sed, tempora.
@@ -190,7 +195,11 @@ const Footer = () => {
                 </Section>
                 <Section>
                     <SectionWrapper>
-                        <Title>Contact Us</Title>
+                        <Title>
+                            <Link to="/contact" style={{textDecoration:"none",color:"#fff"}}>
+                                Contact Us
+                            </Link>
+                        </Title>
                         <Description width={"100px"}>
                             Lorem ipsum dolor sit amet, consectetur
                             adipisicing elit. Ducimus iste modi

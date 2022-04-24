@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
+import {Link} from "react-router-dom";
 
 
 
@@ -33,7 +34,9 @@ const Logo = (props) => {
         <Container>
             <Wrapper>
                 <Logo>
-                    CLA
+                    <Link to="/" style={{textDecoration:"none",color:"#fff"}}>
+                        CLA
+                    </Link>
                 </Logo>
             </Wrapper>
         </Container>
