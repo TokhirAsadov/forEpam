@@ -11,7 +11,7 @@ const Footer = () => {
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      margin: 65px auto 0px!important;
+      margin: 0px auto !important;
       background-color: #252527;
     `;
     const Wrapper = styled.div`

@@ -11,7 +11,7 @@ const ThreeCards = () => {
       justify-content: space-between;
       width: 80vw;
       height: 60vh;
-      margin: 80px auto 20px!important;
+      margin: 80px auto 85px!important;
       padding: 10px 40px; 
     `;
 
