@@ -1,14 +1,14 @@
 import React from 'react';
 import styled from "styled-components";
 
-const Contact = () => {
+const Contact = (props) => {
     const Container = styled.div`
       width: 100vw; 
       display: flex;
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      margin-top: 60px!important;
+      margin-top: /*60px*/${props.marginTop}!important;
       padding: 40px 0;
       background-color: #48449A;
     `;

@@ -10,12 +10,12 @@ import img7 from "./../utill/images/products/ram.png"
 import img8 from "./../utill/images/products/bettery.png"
 import img9 from "./../utill/images/products/drive.png"
 
-const Products = () => {
+const Products = (props) => {
     const Container = styled.div`
       width: 100vw;
       padding: 40px 60px;
       box-sizing: border-box;
-      margin-top: 65px!important;
+      margin-top: ${props.marginTop}!important;
       background-color: #f7f7f7;
     `;
     const Wrapper = styled.div`

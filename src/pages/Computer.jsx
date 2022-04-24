@@ -2,11 +2,11 @@ import React from 'react';
 import styled from "styled-components";
 import img from "./../utill/images/pagesPictures/computerPage.png"
 
-const Computer = () => {
+const Computer = (props) => {
     const Container = styled.div`
       width: 100vw;
       height: calc(100vh - 65px);
-      margin-top: 60px!important;
+      margin-top: /*60px*/${props.marginTop}!important;
       display: flex;
       align-items: center;
       justify-content: center;
