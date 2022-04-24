@@ -11,7 +11,7 @@ const Laptop = () => {
       display: flex;
       align-items: center;
       justify-content: center;
-      background-color: #4842A2;
+      background-color: #fff;
     `;
 
     const Left = styled.div`
@@ -49,8 +49,7 @@ const Laptop = () => {
       font-weight: 600;
       text-align: right;
       letter-spacing: 1.1px;
-      margin-bottom: 20px!important;
-      color: #fff;
+      margin-bottom: 20px!important; 
     `;
 
     const Announce = styled.h4`
@@ -59,8 +58,7 @@ const Laptop = () => {
       font-weight: 400;
       text-align: right;
       letter-spacing: 1.1px;
-      margin-bottom: 20px!important;
-      color: #fff;
+      margin-bottom: 20px!important; 
     `;
 
     const Button = styled.button`
